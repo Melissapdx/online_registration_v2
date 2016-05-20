@@ -1,0 +1,165 @@
+*{
+	box-sizing: border-box;
+}
+
+header{
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 1.7em;
+	color:white;
+	background:#5ee5b6; /* Old browsers */
+background: -moz-linear-gradient(left, #5ee5b6 22%, #cc56f7 71%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #5ee5b6 22%,#cc56f7 71%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #5ee5b6 22%,#cc56f7 71%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	text-align: center;
+	margin:auto;
+	padding: 30px;
+	
+}
+
+h1{
+	text-align:center;
+	margin:auto;
+	font-size: 1.3em;
+	font-weight: bold;
+	padding-top: 10px;
+	font-weight:400;
+
+}
+p{
+	text-align: center;
+	font-size:1.1em;
+	padding-bottom:20px;
+}
+
+body,p{
+	font-family:'Lato', sans-serif;
+	font-weight: 300;
+
+
+}
+input[type="text"],
+input[type="email"],
+select
+
+
+{
+	display:block;
+	margin:0 auto;
+	padding:15px;
+	margin-bottom: 20px;
+	margin-top: 5px;
+	min-width:100%;
+	text-align:right;
+	border-color: lightgrey;
+	
+
+}
+
+
+
+input[type="radio"],
+input[type="checkbox"]{
+	float:left;
+
+}
+
+fieldset{
+	border:none;
+}
+
+legend{
+	font-weight:400;
+	padding-bottom: 10px;
+}
+
+label{
+	display:block;
+}
+.heading{
+	padding-bottom: 20px;
+}
+
+textarea{
+	min-width:100%;
+	padding:15px;
+	padding-bottom: 50px;
+	border-color: lightgrey;
+
+}
+
+textarea:focus,
+input:focus{
+	background:#a9ffd4;
+}
+
+button{
+	
+	min-width: 100%;
+	border: 6px solid transparent;
+    border-image: linear-gradient(to right, #5ee5b6  22%, #cc56f7 71%);
+    border-image-slice: 1;
+  	background: #fff;
+    color: #000;
+    font-size: 1.5em;
+    padding: 20px 50px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+
+
+}
+button:hover{
+	border: 6px solid transparent;
+    border-image: linear-gradient(to left, #5ee5b6  22%, #cc56f7 71%);
+    border-image-slice: 1;
+
+
+}
+
+@media (min-width:760px){
+
+.container{
+	max-width: 600px;
+	margin:0 auto;
+}
+
+textarea,button{
+	min-width: 500px;
+	display: block;
+	margin:0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+select{
+	min-width: 60%
+}
+
+.full_name,
+.email,
+.phone,
+.address,
+.city,
+.state,
+.zip
+{
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	
+
+}
+
+
+
+
+
+
+
+
+}
+
+
+
