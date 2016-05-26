@@ -2,11 +2,12 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial scale 1.0">
+	<meta name="viewport" content="width=device-width,initial scale=1.0">
 	<title>THE CODE REVIEW</title>
 	<link rel="stylesheet" href="style.css">
 	<link href='https://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 </head>
+<body>
 	<form action="index.html" method="post">
 	<header>THE CODE REVIEW</header>
 	<div class="container">
@@ -99,10 +100,10 @@
 	
 	<input type="radio" id="HTML" value="HTML" name="format">
 	<label for="HTML" class="light">HTML</label><br>
-	<input type="radio" id="plain" value="HTML" name="format">
+	<input type="radio" id="plain" value="plain" name="format">
 	<label for="HTML" class="light">Plain text</label><br>
-	<label>Other topics you's like to hear about</label><br>
-	<textarea></textarea><br>
+	<label for="topics">Other topics you's like to hear about</label><br>
+	<textarea id="topics"name="text_topics"></textarea><br>
 	</fieldset>
 	<button type="submit">Sign Up</button><br>
 	<p>Copyright The Code Review</p>
@@ -110,4 +111,5 @@
 
 
 	</form>
+	</body>
 </html>
